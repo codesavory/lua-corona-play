@@ -7,12 +7,17 @@ For this project, we plan to work with the Lua language, which both of us are ne
 
 ### Project Plan
 
-Week - 4: Learn Lua syntax and setup
-Week - 5: Learn different paradigms & Explore Corona SDK - 2D Game Engine
-Week - 6: Putting together building blocks for the game
-Week - 7: 2D sketches and level design
-Week - 8: Explore runtime for game engine & Optimize runtime
-Week - 9: Presentations and Documentation
+**Week - 4**: Learn Lua syntax and setup
+
+**Week - 5**: Learn different paradigms & Explore Corona SDK - 2D Game Engine
+
+**Week - 6**: Putting together building blocks for the game
+
+**Week - 7**: 2D sketches and level design
+
+**Week - 8**: Explore runtime for game engine & Optimize runtime
+
+**Week - 9**: Presentations and Documentation
 
 ### Notes
 
