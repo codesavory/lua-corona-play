@@ -55,3 +55,36 @@ print(string.format("Pi = %.10f", math.pi))
 
 -- Not equals: ~=
 
+
+-- If statements ------------------------------------------
+
+age = 17
+
+if age < 16 then
+	io.write("You can go to school\n")
+	local localVar = 10 --Local to this if statement
+elseif age >= 16 and age < 18 then
+	io.write("You can drive\n")
+else
+	io.write("You can vote\n")
+end
+
+print(localVar) --Prints nil
+
+-- Conditional operator
+
+print(age > 16 and true or false)
+
+str = "Python is the best"
+
+io.write("String: ", string.gsub(str, "Python", "Lua"), "\n")
+
+io.write("Index: ", string.find(str, "the"))
+
+
+i = 0
+
+while (i < 10) do
+	io.write(i, "\n")
+	i = i + 1
+end
