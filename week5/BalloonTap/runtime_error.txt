@@ -1,0 +1,126 @@
+20:00:17.394
+20:00:17.394  Corona Simulator 2018.3326 (Jun 25 2018 12:39:46)
+20:00:17.394
+20:03:38.202  Copying 	file	Icon-hdpi.png
+20:03:38.202  Copying 	file	Icon-ldpi.png
+20:03:38.202  Copying 	file	Icon-mdpi.png
+20:03:38.213  Copying 	file	Icon-xhdpi.png
+20:03:38.213  Copying 	file	Icon-xxhdpi.png
+20:03:38.213  Copying 	file	Icon-xxxhdpi.png
+20:03:38.213  Copying 	file	Icon.png
+20:03:38.213  Copying 	directory	Images.xcassets
+20:03:38.213  Copying 	directory	AppIcon.appiconset
+20:03:38.213  Copying 	file	Contents.json
+20:03:38.224  Copying 	file	Icon-1024.png
+20:03:38.224  Copying 	file	Icon-120.png
+20:03:38.224  Copying 	file	Icon-152.png
+20:03:38.224  Copying 	file	Icon-167.png
+20:03:38.224  Copying 	file	Icon-180.png
+20:03:38.224  Copying 	file	Icon-40.png
+20:03:38.224  Copying 	file	Icon-58.png
+20:03:38.235  Copying 	file	Icon-76.png
+20:03:38.235  Copying 	file	Icon-80.png
+20:03:38.235  Copying 	file	Icon-87.png
+20:03:38.235  Copying 	file	Contents.json
+20:03:38.246  Copying 	directory	LaunchScreen.storyboardc
+20:03:38.246  Copying 	file	01J-lp-oVM-view-Ze5-6b-2t3.nib
+20:03:38.256  Copying 	file	designable.storyboard
+20:03:38.256  Copying 	file	Info.plist
+20:03:38.267  Copying 	file	UIViewController-01J-lp-oVM.nib
+20:03:38.267  Copying 	file	main.lua
+20:03:38.556
+20:03:38.556  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+20:03:38.556  	Version: 3.0.0
+20:03:38.556  	Build: 2018.3326
+20:03:38.556  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+20:03:38.567  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\BalloonTap
+20:03:38.567  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\balloontap-7F33E1CD75CF2E435923FCB07F63662F\Documents
+13:28:07.166
+13:28:07.166  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+13:28:07.166  	Version: 3.0.0
+13:28:07.166  	Build: 2018.3326
+13:28:07.166  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+13:28:07.166  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\BalloonTap
+13:28:07.166  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\balloontap-7F33E1CD75CF2E435923FCB07F63662F\Documents
+13:28:51.916
+13:28:51.916  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+13:28:51.916  	Version: 3.0.0
+13:28:51.916  	Build: 2018.3326
+13:28:51.916  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+13:28:51.916  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\BalloonTap
+13:28:51.916  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\balloontap-7F33E1CD75CF2E435923FCB07F63662F\Documents
+13:38:17.991
+13:38:17.991  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+13:38:17.991  	Version: 3.0.0
+13:38:17.991  	Build: 2018.3326
+13:38:17.991  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+13:38:17.991  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\BalloonTap
+13:38:17.991  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\balloontap-7F33E1CD75CF2E435923FCB07F63662F\Documents
+13:39:52.982
+13:39:52.982  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+13:39:52.982  	Version: 3.0.0
+13:39:52.982  	Build: 2018.3326
+13:39:52.982  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+13:39:52.982  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\BalloonTap
+13:39:52.982  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\balloontap-7F33E1CD75CF2E435923FCB07F63662F\Documents
+13:40:15.514
+13:40:15.514  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+13:40:15.514  	Version: 3.0.0
+13:40:15.514  	Build: 2018.3326
+13:40:15.514  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+13:40:15.514  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\BalloonTap
+13:40:15.514  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\balloontap-7F33E1CD75CF2E435923FCB07F63662F\Documents
+13:40:34.514
+13:40:34.514  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+13:40:34.514  	Version: 3.0.0
+13:40:34.514  	Build: 2018.3326
+13:40:34.514  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+13:40:34.514  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\BalloonTap
+13:40:34.514  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\balloontap-7F33E1CD75CF2E435923FCB07F63662F\Documents
+13:41:08.502
+13:41:08.502  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+13:41:08.502  	Version: 3.0.0
+13:41:08.502  	Build: 2018.3326
+13:41:08.502  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+13:41:08.502  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\BalloonTap
+13:41:08.502  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\balloontap-7F33E1CD75CF2E435923FCB07F63662F\Documents
+13:41:23.314
+13:41:23.314  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+13:41:23.314  	Version: 3.0.0
+13:41:23.314  	Build: 2018.3326
+13:41:23.314  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+13:41:23.314  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\BalloonTap
+13:41:23.314  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\balloontap-7F33E1CD75CF2E435923FCB07F63662F\Documents
+13:42:15.507
+13:42:15.507  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+13:42:15.507  	Version: 3.0.0
+13:42:15.507  	Build: 2018.3326
+13:42:15.507  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+13:42:15.507  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\BalloonTap
+13:42:15.507  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\balloontap-7F33E1CD75CF2E435923FCB07F63662F\Documents
+13:42:34.007
+13:42:34.007  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+13:42:34.007  	Version: 3.0.0
+13:42:34.007  	Build: 2018.3326
+13:42:34.007  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+13:42:34.007  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\BalloonTap
+13:42:34.007  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\balloontap-7F33E1CD75CF2E435923FCB07F63662F\Documents
+13:42:36.095  ERROR: Runtime error
+13:42:36.095  D:\CG_Source\Runtime_Systems_CS263\Corona Projects\BalloonTap\main.lua:10: attempt to index global 'balloon' (a nil value)
+13:42:36.095  stack traceback:
+13:42:36.095  	D:\CG_Source\Runtime_Systems_CS263\Corona Projects\BalloonTap\main.lua:10: in function '?'
+13:42:36.095  	?: in function <?:190>
+13:42:40.056
+13:42:40.056  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+13:42:40.056  	Version: 3.0.0
+13:42:40.056  	Build: 2018.3326
+13:42:40.056  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+13:42:40.056  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\BalloonTap
+13:42:40.056  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\balloontap-7F33E1CD75CF2E435923FCB07F63662F\Documents
+13:42:56.990
+13:42:56.990  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+13:42:56.990  	Version: 3.0.0
+13:42:56.990  	Build: 2018.3326
+13:42:56.990  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+13:42:56.990  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\BalloonTap
+13:42:56.990  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\balloontap-7F33E1CD75CF2E435923FCB07F63662F\Documents
