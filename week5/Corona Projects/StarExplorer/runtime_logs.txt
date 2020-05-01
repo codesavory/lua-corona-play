@@ -1,0 +1,180 @@
+16:36:30.499
+16:36:30.499  Corona Simulator 2018.3326 (Jun 25 2018 12:39:46)
+16:36:30.499
+16:44:29.507  Copying 	file	Icon-hdpi.png
+16:44:29.518  Copying 	file	Icon-ldpi.png
+16:44:29.528  Copying 	file	Icon-mdpi.png
+16:44:29.528  Copying 	file	Icon-xhdpi.png
+16:44:29.528  Copying 	file	Icon-xxhdpi.png
+16:44:29.539  Copying 	file	Icon-xxxhdpi.png
+16:44:29.539  Copying 	file	Icon.png
+16:44:29.539  Copying 	directory	Images.xcassets
+16:44:29.539  Copying 	directory	AppIcon.appiconset
+16:44:29.540  Copying 	file	Contents.json
+16:44:29.550  Copying 	file	Icon-1024.png
+16:44:29.561  Copying 	file	Icon-120.png
+16:44:29.561  Copying 	file	Icon-152.png
+16:44:29.561  Copying 	file	Icon-167.png
+16:44:29.583  Copying 	file	Icon-180.png
+16:44:29.583  Copying 	file	Icon-40.png
+16:44:29.583  Copying 	file	Icon-58.png
+16:44:29.594  Copying 	file	Icon-76.png
+16:44:29.594  Copying 	file	Icon-80.png
+16:44:29.594  Copying 	file	Icon-87.png
+16:44:29.594  Copying 	file	Contents.json
+16:44:29.605  Copying 	directory	LaunchScreen.storyboardc
+16:44:29.605  Copying 	file	01J-lp-oVM-view-Ze5-6b-2t3.nib
+16:44:29.616  Copying 	file	designable.storyboard
+16:44:29.627  Copying 	file	Info.plist
+16:44:29.638  Copying 	file	UIViewController-01J-lp-oVM.nib
+16:44:29.649  Copying 	file	main.lua
+16:44:30.288
+16:44:30.288  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+16:44:30.288  	Version: 3.0.0
+16:44:30.288  	Build: 2018.3326
+16:44:30.288  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+16:44:30.288  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer
+16:44:30.288  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\starexplorer-330803F15109A10BFD31E2C29040B264\Documents
+16:44:32.343
+16:44:32.343  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+16:44:32.343  	Version: 3.0.0
+16:44:32.343  	Build: 2018.3326
+16:44:32.354  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+16:44:32.354  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer
+16:44:32.354  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\starexplorer-330803F15109A10BFD31E2C29040B264\Documents
+16:49:20.512
+16:49:20.512  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+16:49:20.512  	Version: 3.0.0
+16:49:20.512  	Build: 2018.3326
+16:49:20.512  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+16:49:20.512  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer
+16:49:20.512  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\starexplorer-330803F15109A10BFD31E2C29040B264\Documents
+16:49:56.020
+16:49:56.020  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+16:49:56.020  	Version: 3.0.0
+16:49:56.020  	Build: 2018.3326
+16:49:56.021  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+16:49:56.033  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer
+16:49:56.033  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\starexplorer-330803F15109A10BFD31E2C29040B264\Documents
+16:52:34.004
+16:52:34.004  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+16:52:34.004  	Version: 3.0.0
+16:52:34.004  	Build: 2018.3326
+16:52:34.004  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+16:52:34.004  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer
+16:52:34.004  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\starexplorer-330803F15109A10BFD31E2C29040B264\Documents
+16:52:53.487
+16:52:53.487  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+16:52:53.487  	Version: 3.0.0
+16:52:53.487  	Build: 2018.3326
+16:52:53.487  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+16:52:53.487  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer
+16:52:53.487  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\starexplorer-330803F15109A10BFD31E2C29040B264\Documents
+16:54:41.169
+16:54:41.169  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+16:54:41.169  	Version: 3.0.0
+16:54:41.169  	Build: 2018.3326
+16:54:41.169  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+16:54:41.169  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer
+16:54:41.169  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\starexplorer-330803F15109A10BFD31E2C29040B264\Documents
+16:55:39.671
+16:55:39.671  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+16:55:39.671  	Version: 3.0.0
+16:55:39.671  	Build: 2018.3326
+16:55:39.671  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+16:55:39.671  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer
+16:55:39.671  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\starexplorer-330803F15109A10BFD31E2C29040B264\Documents
+16:55:49.642
+16:55:49.642  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+16:55:49.642  	Version: 3.0.0
+16:55:49.642  	Build: 2018.3326
+16:55:49.642  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+16:55:49.642  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer
+16:55:49.642  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\starexplorer-330803F15109A10BFD31E2C29040B264\Documents
+16:55:50.478
+16:55:50.478  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+16:55:50.478  	Version: 3.0.0
+16:55:50.478  	Build: 2018.3326
+16:55:50.478  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+16:55:50.478  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer
+16:55:50.478  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\starexplorer-330803F15109A10BFD31E2C29040B264\Documents
+16:56:13.744
+16:56:13.744  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+16:56:13.744  	Version: 3.0.0
+16:56:13.744  	Build: 2018.3326
+16:56:13.755  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+16:56:13.755  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer
+16:56:13.755  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\starexplorer-330803F15109A10BFD31E2C29040B264\Documents
+16:58:17.995
+16:58:17.995  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+16:58:17.995  	Version: 3.0.0
+16:58:17.995  	Build: 2018.3326
+16:58:17.995  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+16:58:17.995  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer
+16:58:17.995  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\starexplorer-330803F15109A10BFD31E2C29040B264\Documents
+16:58:27.002
+16:58:27.002  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+16:58:27.002  	Version: 3.0.0
+16:58:27.002  	Build: 2018.3326
+16:58:27.002  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+16:58:27.002  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer
+16:58:27.002  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\starexplorer-330803F15109A10BFD31E2C29040B264\Documents
+17:08:58.985
+17:08:58.985  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+17:08:58.985  	Version: 3.0.0
+17:08:58.985  	Build: 2018.3326
+17:08:58.985  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+17:08:58.985  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer
+17:08:58.985  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\starexplorer-330803F15109A10BFD31E2C29040B264\Documents
+17:08:58.996  WARNING: D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer\main.lua:52: Failed to find image 'gameObject.png'
+17:09:41.041
+17:09:41.041  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+17:09:41.041  	Version: 3.0.0
+17:09:41.041  	Build: 2018.3326
+17:09:41.041  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+17:09:41.041  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer
+17:09:41.041  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\starexplorer-330803F15109A10BFD31E2C29040B264\Documents
+17:09:41.052  WARNING: D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer\main.lua:52: Failed to find image 'gameObject.png'
+17:10:58.481
+17:10:58.481  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+17:10:58.481  	Version: 3.0.0
+17:10:58.481  	Build: 2018.3326
+17:10:58.481  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+17:10:58.492  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer
+17:10:58.492  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\starexplorer-330803F15109A10BFD31E2C29040B264\Documents
+17:10:58.492  WARNING: D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer\main.lua:52: Failed to find image 'gameObject.png'
+17:12:00.097
+17:12:00.097  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+17:12:00.097  	Version: 3.0.0
+17:12:00.097  	Build: 2018.3326
+17:12:00.108  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+17:12:00.108  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer
+17:12:00.108  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\starexplorer-330803F15109A10BFD31E2C29040B264\Documents
+17:12:00.131  WARNING: D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer\main.lua:52: Failed to find image 'gameObject.png'
+17:12:00.131  ERROR: D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer\main.lua:76: display.newImageRect() bad argument #2: filename or image sheet expected, but got nil
+17:15:00.507
+17:15:00.507  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+17:15:00.507  	Version: 3.0.0
+17:15:00.507  	Build: 2018.3326
+17:15:00.507  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+17:15:00.507  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer
+17:15:00.507  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\starexplorer-330803F15109A10BFD31E2C29040B264\Documents
+17:15:00.517  WARNING: D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer\main.lua:52: Failed to find image 'gameObject.png'
+17:15:00.528  ERROR: D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer\main.lua:76: display.newImageRect() bad argument #2: filename or image sheet expected, but got nil
+17:15:00.528  ERROR: Runtime error
+17:15:00.528  D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer\main.lua:77: attempt to index local 'ship' (a nil value)
+17:15:00.528  stack traceback:
+17:15:00.528  	D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer\main.lua:77: in main chunk
+17:15:09.977
+17:15:09.977  Copyright (C) 2009-2018  C o r o n a   L a b s   I n c .
+17:15:09.977  	Version: 3.0.0
+17:15:09.977  	Build: 2018.3326
+17:15:09.988  Platform: SM-G900S / x64 / 10.0 / Intel(R) UHD Graphics 630 / 4.6.0 - Build 26.20.100.6911 / 2018.3326 / en_IN | IN | en_IN | en
+17:15:09.988  Loading project from:   D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer
+17:15:09.988  Project sandbox folder: C:\Users\surya\AppData\Local\Corona Labs\Corona Simulator\Sandbox\starexplorer-330803F15109A10BFD31E2C29040B264\Documents
+17:15:09.988  WARNING: D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer\main.lua:52: Failed to find image 'gameObject.png'
+17:15:09.999  ERROR: D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer\main.lua:76: display.newImageRect() bad argument #2: filename or image sheet expected, but got nil
+17:15:09.999  ERROR: Runtime error
+17:15:09.999  D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer\main.lua:77: attempt to index local 'ship' (a nil value)
+17:15:09.999  stack traceback:
+17:15:09.999  	D:\CG_Source\Runtime_Systems_CS263\Corona Projects\StarExplorer\main.lua:77: in main chunk
