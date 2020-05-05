@@ -86,7 +86,7 @@ scoreText = display.newText( uiGroup, "Score: " .. score, 400, 80, native.system
 local function createAsteroid()
  
     local newAsteroid = display.newImageRect( mainGroup, objectSheet, 1, 102, 85 )
-    table.insert( asteroidsTable, newAsteroid )
+    table.insert(asteroidTable, newAsteroid )
     physics.addBody( newAsteroid, "dynamic", { radius=40, bounce=0.8 } )
     newAsteroid.myName = "asteroid"
 
@@ -152,3 +152,27 @@ local function dragShip( event )
 end
 
 ship:addEventListener( "touch", dragShip )
+
+local function gameLoop()
+
+    -- Create new asteroid
+    createAsteroid()
+
+    -- Remove asteroids which have drifted off screen
+    for i = #asteroidTable, 1, -1 do
+        local thisAsteroid = asteroidTable[i]
+ 
+        if ( thisAsteroid.x < -100 or
+             thisAsteroid.x > display.contentWidth + 100 or
+             thisAsteroid.y < -100 or
+             thisAsteroid.y > display.contentHeight + 100 )
+        then
+            display.remove( thisAsteroid )
+            table.remove( asteroidTable, i )
+        end
+ 
+    end
+ 
+end
+
+gameLoopTimer = timer.performWithDelay( 500, gameLoop, 0 )
