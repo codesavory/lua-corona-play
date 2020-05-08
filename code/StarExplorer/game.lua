@@ -66,13 +66,10 @@ local backGroup
 local mainGroup
 local uiGroup
 
--- local function updateText()
---     livesText.text = "Lives: " .. lives
---     scoreText.text = "Score: " .. score
--- end
-
-livesText = display.newText( uiGroup, "Lives: " .. lives, 200, 80, native.systemFont, 36 )
-scoreText = display.newText( uiGroup, "Score: " .. score, 400, 80, native.systemFont, 36 )
+local function updateText()
+    livesText.text = "Lives: " .. lives
+    scoreText.text = "Score: " .. score
+end
 
 local function createAsteroid()
  
@@ -119,22 +116,22 @@ local function fireLaser()
     } )
 end
 
-local function dragShip( event )
+local function dragShip(event)
  
     local ship = event.target
     local phase = event.phase
 
-    if ( "began" == phase ) then
+    if ("began" == phase) then
         -- Set touch focus on the ship
-        display.currentStage:setFocus( ship )
+        display.currentStage:setFocus(ship)
         -- Store initial offset position
         ship.touchOffsetX = event.x - ship.x
-    elseif ( "moved" == phase ) then
+    elseif ("moved" == phase) then
         -- Move the ship to the new touch position
         ship.x = event.x - ship.touchOffsetX
-    elseif ( "ended" == phase or "cancelled" == phase ) then
+    elseif ("ended" == phase or "cancelled" == phase) then
         -- Release touch focus on the ship
-        display.currentStage:setFocus( nil )
+        display.currentStage:setFocus(nil)
     end
 
     return true
@@ -149,13 +146,13 @@ local function gameLoop()
     for i = #asteroidTable, 1, -1 do
         local thisAsteroid = asteroidTable[i]
  
-        if ( thisAsteroid.x < -100 or
-             thisAsteroid.x > display.contentWidth + 100 or
-             thisAsteroid.y < -100 or
-             thisAsteroid.y > display.contentHeight + 100 )
+        if (thisAsteroid.x < -100 or
+            thisAsteroid.x > display.contentWidth + 100 or
+            thisAsteroid.y < -100 or
+            thisAsteroid.y > display.contentHeight + 100)
         then
-            display.remove( thisAsteroid )
-            table.remove( asteroidTable, i )
+            display.remove(thisAsteroid)
+            table.remove(asteroidTable, i)
         end
  
     end
@@ -177,9 +174,9 @@ local function restoreShip()
     } )
 end
 
-local function onCollision( event )
+local function onCollision(event)
  
-    if ( event.phase == "began" ) then
+    if (event.phase == "began") then
  
         local obj1 = event.object1
         local obj2 = event.object2
@@ -188,12 +185,12 @@ local function onCollision( event )
              ( obj1.myName == "asteroid" and obj2.myName == "laser" ) )
         then
             -- Remove both the laser and asteroid
-            display.remove( obj1 )
-            display.remove( obj2 )
+            display.remove(obj1)
+            display.remove(obj2)
 
             for i = #asteroidsTable, 1, -1 do
                 if ( asteroidsTable[i] == obj1 or asteroidsTable[i] == obj2 ) then
-                    table.remove( asteroidsTable, i )
+                    table.remove(asteroidsTable, i)
                     break
                 end
             end
@@ -204,18 +201,18 @@ local function onCollision( event )
         elseif ( ( obj1.myName == "ship" and obj2.myName == "asteroid" ) or
                  ( obj1.myName == "asteroid" and obj2.myName == "ship" ) )
         then
-            if ( died == false ) then
+            if (died == false) then
                 died = true
  
                 -- Update lives
                 lives = lives - 1
                 livesText.text = "Lives: " .. lives
 
-                if ( lives == 0 ) then
-                    display.remove( ship )
+                if (lives == 0) then
+                    display.remove(ship)
                 else
                     ship.alpha = 0
-                    timer.performWithDelay( 1000, restoreShip )
+                    timer.performWithDelay(1000, restoreShip)
                 end
             end
         end
@@ -231,6 +228,34 @@ function scene:create( event )
 	local sceneGroup = self.view
 	-- Code here runs when the scene is first created but has not yet appeared on screen
 
+	physics.pause()
+
+	-- Set up display groups
+    backGroup = display.newGroup()  -- Display group for the background image
+    sceneGroup:insert( backGroup )  -- Insert into the scene's view group
+ 
+    mainGroup = display.newGroup()  -- Display group for the ship, asteroids, lasers, etc.
+    sceneGroup:insert( mainGroup )  -- Insert into the scene's view group
+ 
+    uiGroup = display.newGroup()    -- Display group for UI objects like the score
+    sceneGroup:insert( uiGroup )    -- Insert into the scene's view group
+
+    local background = display.newImageRect( backGroup, "background.png", 800, 1400 )
+    background.x = display.contentCenterX
+    background.y = display.contentCenterY
+
+    ship = display.newImageRect( mainGroup, objectSheet, 4, 98, 79 )
+    ship.x = display.contentCenterX
+    ship.y = display.contentHeight - 100
+    physics.addBody( ship, { radius=30, isSensor=true } )
+    ship.myName = "ship"
+ 
+    -- Display lives and score
+    livesText = display.newText( uiGroup, "Lives: " .. lives, 200, 80, native.systemFont, 36 )
+    scoreText = display.newText( uiGroup, "Score: " .. score, 400, 80, native.systemFont, 36 )
+
+    ship:addEventListener( "tap", fireLaser )
+    ship:addEventListener( "touch", dragShip )
 end
 
 

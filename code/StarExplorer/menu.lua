@@ -8,6 +8,13 @@ local scene = composer.newScene()
 -- the scene is removed entirely (not recycled) via "composer.removeScene()"
 -- -----------------------------------------------------------------------------------
 
+local function gotoGame()
+    composer.gotoScene( "game" )
+end
+ 
+local function gotoHighScores()
+    composer.gotoScene( "highscores" )
+end
 
 
 -- -----------------------------------------------------------------------------------
@@ -33,6 +40,9 @@ function scene:create( event )
  
     local highScoresButton = display.newText( sceneGroup, "High Scores", display.contentCenterX, 810, native.systemFont, 44 )
     highScoresButton:setFillColor( 0.75, 0.78, 1 )
+
+    playButton:addEventListener( "tap", gotoGame )
+    highScoresButton:addEventListener( "tap", gotoHighScores )
 end
 
 
