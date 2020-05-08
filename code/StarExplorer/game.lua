@@ -174,6 +174,11 @@ local function restoreShip()
     } )
 end
 
+local function endGame()
+    
+    composer.gotoScene( "menu", { time=800, effect="crossFade" } )
+end
+
 local function onCollision(event)
  
     if (event.phase == "began") then
@@ -188,9 +193,9 @@ local function onCollision(event)
             display.remove(obj1)
             display.remove(obj2)
 
-            for i = #asteroidsTable, 1, -1 do
-                if ( asteroidsTable[i] == obj1 or asteroidsTable[i] == obj2 ) then
-                    table.remove(asteroidsTable, i)
+            for i = #asteroidTable, 1, -1 do
+                if ( asteroidTable[i] == obj1 or asteroidTable[i] == obj2 ) then
+                    table.remove(asteroidTable, i)
                     break
                 end
             end
@@ -210,6 +215,7 @@ local function onCollision(event)
 
                 if (lives == 0) then
                     display.remove(ship)
+                    timer.performWithDelay( 2000, endGame )
                 else
                     ship.alpha = 0
                     timer.performWithDelay(1000, restoreShip)
@@ -267,10 +273,12 @@ function scene:show( event )
 
 	if ( phase == "will" ) then
 		-- Code here runs when the scene is still off screen (but is about to come on screen)
-
 	elseif ( phase == "did" ) then
 		-- Code here runs when the scene is entirely on screen
 
+		physics.start()
+        Runtime:addEventListener( "collision", onCollision )
+        gameLoopTimer = timer.performWithDelay( 500, gameLoop, 0 )
 	end
 end
 
@@ -283,10 +291,13 @@ function scene:hide( event )
 
 	if ( phase == "will" ) then
 		-- Code here runs when the scene is on screen (but is about to go off screen)
+		timer.cancel(gameLoopTimer)
 
 	elseif ( phase == "did" ) then
 		-- Code here runs immediately after the scene goes entirely off screen
-
+		Runtime:removeEventListener( "collision", onCollision )
+        physics.pause()
+        composer.removeScene( "game" )
 	end
 end
 
