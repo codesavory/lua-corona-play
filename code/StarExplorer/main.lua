@@ -216,6 +216,25 @@ local function onCollision( event )
             -- Increase score
             score = score + 100
             scoreText.text = "Score: " .. score
+        elseif ( ( obj1.myName == "ship" and obj2.myName == "asteroid" ) or
+                 ( obj1.myName == "asteroid" and obj2.myName == "ship" ) )
+        then
+            if ( died == false ) then
+                died = true
+ 
+                -- Update lives
+                lives = lives - 1
+                livesText.text = "Lives: " .. lives
+
+                if ( lives == 0 ) then
+                    display.remove( ship )
+                else
+                    ship.alpha = 0
+                    timer.performWithDelay( 1000, restoreShip )
+                end
+            end
         end
     end
 end
+
+Runtime:addEventListener( "collision", onCollision )
