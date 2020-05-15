@@ -15,7 +15,7 @@ For this project, we plan to work with the Lua language, which both of us are ne
 
 **Week - 7**: Extend game into the OOP paradigms
 
-**Week - 8**: Explore runtime for game & do code profiling
+**Week - 8**: Explore runtime for game and perform code profiling
 
 **Week - 9**: Presentations and Documentation
 
