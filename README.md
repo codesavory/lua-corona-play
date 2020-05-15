@@ -1,7 +1,7 @@
 # lua-corona-play
 Building a game using Corona Game Engine based on Lua, exploring the features of Lua to optimize game runtimes.
 
-### Vision 
+### Vision
 
 For this project, we plan to work with the Lua language, which both of us are new to. We want to start off by exploring Lua’s support for multiple paradigms. Following that, we also want to develop a simple 2D game in Lua using the Corona game engine. Using this game, we plan to study the runtime of the game engine in more detail, and possibly implement optimizations to the runtime for our game.
 
@@ -13,9 +13,9 @@ For this project, we plan to work with the Lua language, which both of us are ne
 
 **Week - 6**: Putting together building blocks for the game
 
-**Week - 7**: 2D sketches and level design
+**Week - 7**: Extend game into the OOP paradigms
 
-**Week - 8**: Explore runtime for game engine & Optimize runtime
+**Week - 8**: Explore runtime for game & do code profiling
 
 **Week - 9**: Presentations and Documentation
 

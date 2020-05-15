@@ -1,0 +1,3 @@
+[submodule "CoronaCannon"]
+	path = CoronaCannon
+	url = https://github.com/coronalabs-samples/CoronaCannon/
