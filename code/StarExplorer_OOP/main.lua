@@ -54,15 +54,46 @@ local objectSheet = graphics.newImageSheet( "gameObjects.png", sheetOptions )
 
 local ship = {}
 
-function ship.new(group, sheet)
+function ship.new(group, sheet, frame, width, height, dispX, dispY)
   	local self = setmetatable({}, ship)
-	self.disp = display.newImageRect( group, sheet, 4, 98, 79 )
-  	self.disp.x = display.contentCenterX
-	self.disp.y = display.contentHeight - 100
+	self.disp = display.newImageRect( group, sheet, frame, width, height )
+  	self.disp.x = dispX
+	self.disp.y = dispY
 	physics.addBody( self.disp, { radius=30, isSensor=true } )
 	self.disp.myName = "ship"
-  return self
+  	return self
 end
+
+local asteroid = {}
+
+function asteroid.new(group, sheet, frame, width, height)
+  	local self = setmetatable({}, asteroid)
+	self.disp = display.newImageRect( group, sheet, frame, width, height )
+	physics.addBody( self.disp, "dynamic", { radius=40, bounce=0.8 } )	
+	self.disp.myName = "asteroid"
+
+	local whereFrom = math.random( 3 )
+
+	if ( whereFrom == 1 ) then
+        -- From the left
+        self.disp.x = -60
+        self.disp.y = math.random( 500 )
+        self.disp:setLinearVelocity( math.random( 40,120 ), math.random( 20,60 ) )
+    elseif ( whereFrom == 2 ) then
+        -- From the top
+        self.disp.x = math.random( display.contentWidth )
+        self.disp.y = -60
+        self.disp:setLinearVelocity( math.random( -40,40 ), math.random( 40,120 ) )
+    elseif ( whereFrom == 3 ) then
+        -- From the right
+        self.disp.x = display.contentWidth + 60
+        self.disp.y = math.random( 500 )
+        self.disp:setLinearVelocity( math.random( -120,-40 ), math.random( 20,60 ) )
+    end
+
+  	return self
+end
+
 
 -- Initialize variables
 local lives = 3
@@ -88,4 +119,19 @@ background.y = display.contentCenterY
 
 -- ship = display.newImageRect( mainGroup, objectSheet, 4, 98, 79 )
 
-local myShip = ship.new(mainGroup, objectSheet)
+local myShip = ship.new(mainGroup, objectSheet, 4, 98, 79, display.contentCenterX, display.contentHeight - 100)
+
+-- Display lives and score
+livesText = display.newText( uiGroup, "Lives: " .. lives, 70, 0, native.systemFont, 24 )
+scoreText = display.newText( uiGroup, "Score: " .. score, 170, 0, native.systemFont, 24 )
+
+-- Hide the status bar
+display.setStatusBar( display.HiddenStatusBar )
+
+-- Make thsi text also an object?
+local function updateText()
+    livesText.text = "Lives: " .. lives
+    scoreText.text = "Score: " .. score
+end
+
+local newAsteroid = asteroid.new(mainGroup, objectSheet, 1, 102, 85, display.contentCenterX, display.contentHeight - 100)
