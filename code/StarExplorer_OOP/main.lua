@@ -58,7 +58,7 @@ local objectSheet = graphics.newImageSheet( "gameObjects.png", sheetOptions )
 
 --ship class
 --ship = {position_x=0,position_y=0}
-local ship = {disp=0,shipGroup,shipSheet}
+local ship = {disp=0,shipGroup,shipSheet} --need to remove group and sheet if needed
 
 --constructor of ship class
 function ship:new(o, group, sheet, frame, width, height, dispX, dispY)
@@ -75,15 +75,20 @@ function ship:new(o, group, sheet, frame, width, height, dispX, dispY)
   return o
 end
 
-function ship.fireLaser()
-  newLaser = laser:new(nil, self.shipGroup, self.shipSheet, self.disp.x, self.disp.y)
-  newLaser.fireLaser()
-end
+--function ship.fireLaser()
+--  newLaser = laser:new(nil, self.shipGroup, self.shipSheet, self.disp.x, self.disp.y)
+--  newLaser.fireLaser()
+--end
 
 --function to drag the ship
 function ship.dragShip(event)
   --local ship = self
-  if ("began" == phase) then
+  --DeepPrint(ship)
+    local ship = event.target
+    local phase = event.phase
+    --print("Ship disp.x")
+    --print(self.x)
+    if ( "began" == phase ) then
         -- Set touch focus on the ship
         display.currentStage:setFocus(ship)
         -- Store initial offset position
@@ -99,20 +104,22 @@ function ship.dragShip(event)
     return true
 end
 
-function DeepPrint (e)
-    -- if e is a table, we should iterate over its elements
-    if type(e) == "table" then
-        for k,v in pairs(e) do -- for every element in the table
-            print(k)
-            DeepPrint(v)       -- recursively repeat the same procedure
+local function restoreShip()
+
+    myShip.disp.isBodyActive = false
+    myShip.disp.x = display.contentCenterX
+    myShip.disp.y = display.contentHeight - 100
+
+    -- Fade in the ship
+    transition.to( myShip.disp, { alpha=1, time=4000,
+        onComplete = function()
+            myShip.disp.isBodyActive = true
+            died = false
         end
-    else -- if not, we can just print it
-        print(e)
-    end
+    } )
 end
 
 laser = {disp = 0}
-
 -- class method new //more like constructor
 
 function laser:new (o, group, sheet, instance_X,instance_Y)
@@ -128,10 +135,21 @@ function laser:new (o, group, sheet, instance_X,instance_Y)
    return o
 end
 
-local asteroid = {}
+local function fireLaser()
 
-function asteroid.new(group, sheet, frame, width, height)
-  	local self = setmetatable({}, asteroid)
+    local newLaser = laser:new(nil, mainGroup, objectSheet, myShip.disp.x, myShip.disp.y)
+    newLaser.disp:toBack()
+    transition.to( newLaser.disp, { y=-80, time=500,
+        onComplete = function() display.remove( newLaser ) end
+    } )
+end
+
+local asteroid = {disp=0}
+
+function asteroid:new(o, group, sheet, frame, width, height)
+  o = o or {}
+  setmetatable(o, self)
+  self.__index = self
 	self.disp = display.newImageRect( group, sheet, frame, width, height )
 	physics.addBody( self.disp, "dynamic", { radius=40, bounce=0.8 } )
 	self.disp.myName = "asteroid"
@@ -154,17 +172,8 @@ function asteroid.new(group, sheet, frame, width, height)
         self.disp.y = math.random( 500 )
         self.disp:setLinearVelocity( math.random( -120,-40 ), math.random( 20,60 ) )
     end
-
-  	return self
-end
-
-local function fireLaser()
-
-    local newLaser = laser:new(nil, mainGroup, objectSheet, myShip.disp.x, myShip.disp.y)
-    newLaser.disp:toBack()
-    transition.to( newLaser.disp, { y=-60, time=500,
-        onComplete = function() display.remove( newLaser ) end
-    } )
+    self.disp:applyTorque(math.random(-6, 6))
+  	return o
 end
 
 -- Initialize variables
@@ -172,7 +181,7 @@ local lives = 3
 local score = 0
 local died = false
 
-local asteroidsTable = {}
+local asteroidTable = {}
 
 local gameLoopTimer
 local livesText
@@ -207,6 +216,77 @@ local function updateText()
     scoreText.text = "Score: " .. score
 end
 
-local newAsteroid = asteroid.new(mainGroup, objectSheet, 1, 102, 85, display.contentCenterX, display.contentHeight - 100)
+--newAsteroid = asteroid:new(nil, mainGroup, objectSheet, 1, 102, 85)
 
 myShip.disp:addEventListener("tap", fireLaser)
+myShip.disp:addEventListener("touch", myShip.dragShip)
+
+local function gameLoop()
+
+    -- Create new asteroid
+    newAsteroid = asteroid:new(nil, mainGroup, objectSheet, 1, 102, 85, display.contentCenterX, display.contentHeight - 100)
+    table.insert(asteroidTable, newAsteroid )
+
+    -- Remove asteroids which have drifted off screen
+    for i = #asteroidTable, 1, -1 do
+        local thisAsteroid = asteroidTable[i].disp
+
+        if ( thisAsteroid.x < -100 or
+             thisAsteroid.x > display.contentWidth + 100 or
+             thisAsteroid.y < -100 or
+             thisAsteroid.y > display.contentHeight + 100 )
+        then
+            display.remove( thisAsteroid )
+            table.remove( asteroidTable, i )
+        end
+    end
+end
+
+gameLoopTimer = timer.performWithDelay( 1000, gameLoop, 0 )
+
+local function onCollision( event )
+
+    if ( event.phase == "began" ) then
+
+        local obj1 = event.object1
+        local obj2 = event.object2
+
+        if ( ( obj1.myName == "laser" and obj2.myName == "asteroid" ) or
+             ( obj1.myName == "asteroid" and obj2.myName == "laser" ) )
+        then
+            -- Remove both the laser and asteroid
+            display.remove( obj1 )
+            display.remove( obj2 )
+
+            for i = #asteroidTable, 1, -1 do
+                if ( asteroidTable[i] == obj1 or asteroidTable[i] == obj2 ) then
+                    table.remove( asteroidTable, i )
+                    break
+                end
+            end
+
+            -- Increase score
+            score = score + 100
+            scoreText.text = "Score: " .. score
+        elseif ( ( obj1.myName == "ship" and obj2.myName == "asteroid" ) or
+                 ( obj1.myName == "asteroid" and obj2.myName == "ship" ) )
+        then
+            if ( died == false ) then
+                died = true
+
+                -- Update lives
+                lives = lives - 1
+                livesText.text = "Lives: " .. lives
+
+                if ( lives == 0 ) then
+                    display.remove( myShip.disp )
+                else
+                    myShip.disp.alpha = 0
+                    timer.performWithDelay( 1000, restoreShip )
+                end
+            end
+        end
+    end
+end
+
+Runtime:addEventListener( "collision", onCollision )
