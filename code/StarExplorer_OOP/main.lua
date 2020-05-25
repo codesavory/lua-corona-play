@@ -5,6 +5,19 @@
 -----------------------------------------------------------------------------------------
 
 -- Your code here
+A = "Hello"
+local file, err = io.open ('D:/CG_Source/Runtime_Systems_CS263/lua-corona-play/code/StarExplorer_OOP/test.txt',"w")
+if file==nil then
+    print("Couldn't open file: "..err)
+else
+    print("write to file")
+    file:write(A)
+    file:close()
+end
+
+local profiler = require ("profiler")
+profiler.start()
+
 local physics = require( "physics" )
 physics.start()
 physics.setGravity( 0, 0 )
@@ -102,21 +115,6 @@ function ship.dragShip(event)
     end
 
     return true
-end
-
-local function restoreShip()
-
-    myShip.disp.isBodyActive = false
-    myShip.disp.x = display.contentCenterX
-    myShip.disp.y = display.contentHeight - 100
-
-    -- Fade in the ship
-    transition.to( myShip.disp, { alpha=1, time=4000,
-        onComplete = function()
-            myShip.disp.isBodyActive = true
-            died = false
-        end
-    } )
 end
 
 laser = {disp = 0}
@@ -244,6 +242,21 @@ end
 
 gameLoopTimer = timer.performWithDelay( 1000, gameLoop, 0 )
 
+local function restoreShip()
+
+    myShip.disp.isBodyActive = false
+    myShip.disp.x = display.contentCenterX
+    myShip.disp.y = display.contentHeight - 100
+
+    -- Fade in the ship
+    transition.to( myShip.disp, { alpha=1, time=4000,
+        onComplete = function()
+            myShip.disp.isBodyActive = true
+            died = false
+        end
+    } )
+end
+
 local function onCollision( event )
 
     if ( event.phase == "began" ) then
@@ -280,6 +293,10 @@ local function onCollision( event )
 
                 if ( lives == 0 ) then
                     display.remove( myShip.disp )
+                    timer.cancel( gameLoopTimer )
+                    profiler.stop()
+                    profiler.report("D:/CG_Source/Runtime_Systems_CS263/lua-corona-play/code/StarExplorer_OOP/profiler.log")
+                    os.exit()
                 else
                     myShip.disp.alpha = 0
                     timer.performWithDelay( 1000, restoreShip )
