@@ -5,18 +5,19 @@
 -----------------------------------------------------------------------------------------
 
 -- Your code here
-A = "Hello"
-local file, err = io.open ('D:/CG_Source/Runtime_Systems_CS263/lua-corona-play/code/StarExplorer_OOP/test.txt',"w")
-if file==nil then
-    print("Couldn't open file: "..err)
-else
-    print("write to file")
-    file:write(A)
-    file:close()
-end
+--Profiler in LuaProfiler
+require("profiler_in_lua")
+Profiler:activate()
 
-local profiler = require ("profiler")
-profiler.start()
+--pepperfish profiler
+--require("pepperfish_profiler")
+--profiler = newProfiler()
+--profiler:start()
+
+--LuaProfiler
+--luaprofiler
+--local profiler = require ("profiler")
+--profiler.start()
 
 local physics = require( "physics" )
 physics.start()
@@ -294,8 +295,14 @@ local function onCollision( event )
                 if ( lives == 0 ) then
                     display.remove( myShip.disp )
                     timer.cancel( gameLoopTimer )
-                    profiler.stop()
-                    profiler.report("D:/CG_Source/Runtime_Systems_CS263/lua-corona-play/code/StarExplorer_OOP/profiler.log")
+                    Profiler:deactivate()
+                    Profiler:print_results()
+                    --profiler:stop()
+                    --local outfile = io.open( "D:/CG_Source/Runtime_Systems_CS263/lua-corona-play/code/StarExplorer_OOP/profile.txt", "w+" )
+                    --profiler:report( outfile )
+                    --outfile:close()
+                    --profiler.stop()
+                    --profiler.report("D:/CG_Source/Runtime_Systems_CS263/lua-corona-play/code/StarExplorer_OOP/profiler.log")
                     os.exit()
                 else
                     myShip.disp.alpha = 0

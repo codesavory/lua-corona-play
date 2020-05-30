@@ -1,0 +1,25 @@
+Lua Profile output created by profiler.lua. Copyright Pepperfish 2002+
+
+--------------------------- L:hasEventListener@=?:162 --------------------------
+Sample count:            2
+Time spend total:       27.682s
+Time spent in children: 0.000s
+Time spent in self:     27.682s
+Time spent per sample:  13.84100s/sample
+Time spent in self per sample: 13.84100s/sample
+
+------------------------- L:<function: 10E572C8>@=?:190 ------------------------
+Sample count:            2
+Time spend total:       27.682s
+Time spent in children: 27.682s
+Time spent in self:     0.000s
+Time spent per sample:  13.84100s/sample
+Time spent in self per sample: 0.00000s/sample
+
+Child L:hasEventListener@=?:162                 sampled      2 times. Took 27.68s
+
+
+
+Total time spent in profiled functions:  27.7s
+
+END
