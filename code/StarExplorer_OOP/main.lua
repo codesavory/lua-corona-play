@@ -6,13 +6,13 @@
 
 -- Your code here
 --Profiler in LuaProfiler
-require("profiler_in_lua")
-Profiler:activate()
+--require("profiler_in_lua")
+--Profiler:activate()
 
 --pepperfish profiler
---require("pepperfish_profiler")
---profiler = newProfiler()
---profiler:start()
+require("pepperfish_profiler")
+profiler = newProfiler('call')
+profiler:start()
 
 --LuaProfiler
 --luaprofiler
@@ -24,7 +24,7 @@ physics.start()
 physics.setGravity( 0, 0 )
 
 -- Seed the random number generator
-math.randomseed( os.time() )
+math.randomseed( 123456789 )
 
 -- Configure image sheet
 local sheetOptions =
@@ -241,7 +241,7 @@ local function gameLoop()
     end
 end
 
-gameLoopTimer = timer.performWithDelay( 1000, gameLoop, 0 )
+gameLoopTimer = timer.performWithDelay( 500, gameLoop, 0 )
 
 local function restoreShip()
 
@@ -295,12 +295,12 @@ local function onCollision( event )
                 if ( lives == 0 ) then
                     display.remove( myShip.disp )
                     timer.cancel( gameLoopTimer )
-                    Profiler:deactivate()
-                    Profiler:print_results()
-                    --profiler:stop()
-                    --local outfile = io.open( "D:/CG_Source/Runtime_Systems_CS263/lua-corona-play/code/StarExplorer_OOP/profile.txt", "w+" )
-                    --profiler:report( outfile )
-                    --outfile:close()
+                    --Profiler:deactivate()
+                    --Profiler:print_results()
+                    profiler:stop()
+                    local outfile = io.open( "D:/CG_Source/Runtime_Systems_CS263/lua-corona-play/code/StarExplorer_OOP/profile.txt", "w+" )
+                    profiler:report( outfile )
+                    outfile:close()
                     --profiler.stop()
                     --profiler.report("D:/CG_Source/Runtime_Systems_CS263/lua-corona-play/code/StarExplorer_OOP/profiler.log")
                     os.exit()

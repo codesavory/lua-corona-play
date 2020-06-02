@@ -1,0 +1,1602 @@
+Lua Profile output created by profiler.lua. Copyright Pepperfish 2002+
+
+------------------------- L:<function: 109E64D8>@=?:190 ------------------------
+Call count:         2867
+Time spend total:       0.455s
+Time spent in children: 0.351s
+Time spent in self:     0.104s
+Time spent per call:  0.00016s/call
+Time spent in self per call: 0.00004s/call
+
+Child L:?@=?:154                                called      1 times. Took 0.00s
+Child L:cloneArray@=?:182                       called   1965 times. Took 0.11s
+Child C:?@=[C]:?                                called      1 times. Took 0.00s
+Child C:<function: 109E3C38>@=[C]:?             called   2039 times. Took 0.02s
+Child L:?@@D:\CG_Source\Runtime_Systems_CS263\lua-corona-play\code\StarExplorer\main.lua:155 called    122 times. Took 0.00s
+Child L:hasEventListener@=?:162                 called   2546 times. Took 0.07s
+Child C:?@=[C]:?                                called    311 times. Took 0.00s
+Child L:?@@D:\CG_Source\Runtime_Systems_CS263\lua-corona-play\code\StarExplorer\main.lua:224 called    126 times. Took 0.01s
+Child L:?@=?:179                                called   1403 times. Took 0.08s
+Child L:?@@D:\CG_Source\Runtime_Systems_CS263\lua-corona-play\code\StarExplorer\main.lua:134 called      2 times. Took 0.00s
+Child L:?@=?:508                                called    580 times. Took 0.06s
+Child C:type@=[C]:?                             called   1983 times. Took 0.01s
+
+----------------------------- L:cloneArray@=?:182 ------------------------------
+Call count:         1966
+Time spend total:       0.110s
+Time spent in children: 0.029s
+Time spent in self:     0.081s
+Time spent per call:  0.00006s/call
+Time spent in self per call: 0.00004s/call
+
+Child C:ipairs@=[C]:?                           called   1966 times. Took 0.01s
+Child C:<function: 109E15D8>@=[C]:?             called   4513 times. Took 0.02s
+
+--------------------------- L:hasEventListener@=?:162 --------------------------
+Call count:         2547
+Time spend total:       0.066s
+Time spent in children: 0.020s
+Time spent in self:     0.046s
+Time spent per call:  0.00003s/call
+Time spent in self per call: 0.00002s/call
+
+Child C:type@=[C]:?                             called   2547 times. Took 0.01s
+Child C:rawequal@=[C]:?                         called   3120 times. Took 0.01s
+
+------------------------- C:<function: 109E3C38>@=[C]:? ------------------------
+Call count:         6245
+Time spend total:       0.036s
+Time spent in children: 0.000s
+Time spent in self:     0.036s
+Time spent per call:  0.00001s/call
+Time spent in self per call: 0.00001s/call
+
+---------------------------------- L:?@=?:508 ----------------------------------
+Call count:          580
+Time spend total:       0.055s
+Time spent in children: 0.022s
+Time spent in self:     0.033s
+Time spent per call:  0.00009s/call
+Time spent in self per call: 0.00006s/call
+
+Child L:removeEventListener@=?:283              called      4 times. Took 0.00s
+Child C:ipairs@=[C]:?                           called    580 times. Took 0.00s
+Child L:_transition@=?:49                       called    576 times. Took 0.00s
+Child C:<function: 109E15D8>@=[C]:?             called   1160 times. Took 0.00s
+Child L:callListener@@D:\CG_Source\Runtime_Systems_CS263\lua-corona-play\code\StarExplorer\main.lua:215 called      1 times. Took 0.00s
+Child L:callListener@@D:\CG_Source\Runtime_Systems_CS263\lua-corona-play\code\StarExplorer\main.lua:215 called      1 times. Took 0.00s
+Child C:<function: 109E3E58>@=[C]:?             called    569 times. Took 0.01s
+Child C:<function: 109E1618>@=[C]:?             called   1160 times. Took 0.00s
+Child C:insert@=[C]:?                           called      4 times. Took 0.00s
+Child C:pairs@=[C]:?                            called    580 times. Took 0.00s
+Child C:remove@=[C]:?                           called      4 times. Took 0.00s
+Child L:callListener@@D:\CG_Source\Runtime_Systems_CS263\lua-corona-play\code\StarExplorer\main.lua:147 called      1 times. Took 0.00s
+Child L:callListener@@D:\CG_Source\Runtime_Systems_CS263\lua-corona-play\code\StarExplorer\main.lua:147 called      1 times. Took 0.00s
+
+------------------- L:_listener@@D:\CG_Source\Runtime_Systems_CS263\lua-corona-play\code\StarExplorer\main.lua:180 -------------------
+Call count:           43
+Time spend total:       0.071s
+Time spent in children: 0.041s
+Time spent in self:     0.030s
+Time spent per call:  0.00165s/call
+Time spent in self per call: 0.00070s/call
+
+Child L:<function: 0DE86C40>@=?:145             called   1520 times. Took 0.02s
+Child C:print@=[C]:?                            called     43 times. Took 0.00s
+Child L:remove@=?:518                           called     15 times. Took 0.00s
+Child C:<function: 109E3C38>@=[C]:?             called   3043 times. Took 0.01s
+Child C:remove@=[C]:?                           called     15 times. Took 0.00s
+Child L:createAsteroid@@D:\CG_Source\Runtime_Systems_CS263\lua-corona-play\code\StarExplorer\main.lua:94 called     43 times. Took 0.01s
+
+------------------------- C:<function: 109E15D8>@=[C]:? ------------------------
+Call count:         5772
+Time spend total:       0.024s
+Time spent in children: 0.000s
+Time spent in self:     0.024s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:newImageRect@=[C]:? ----------------------------
+Call count:           47
+Time spend total:       0.018s
+Time spent in children: 0.000s
+Time spent in self:     0.018s
+Time spent per call:  0.00038s/call
+Time spent in self per call: 0.00038s/call
+
+--------------------------------- C:type@=[C]:? --------------------------------
+Call count:         4730
+Time spend total:       0.017s
+Time spent in children: 0.000s
+Time spent in self:     0.017s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+------------------------------- C:ipairs@=[C]:? --------------------------------
+Call count:         2637
+Time spend total:       0.014s
+Time spent in children: 0.000s
+Time spent in self:     0.014s
+Time spent per call:  0.00001s/call
+Time spent in self per call: 0.00001s/call
+
+------------------------- L:<function: 0DE86C40>@=?:145 ------------------------
+Call count:         1560
+Time spend total:       0.022s
+Time spent in children: 0.009s
+Time spent in self:     0.013s
+Time spent per call:  0.00001s/call
+Time spent in self per call: 0.00001s/call
+
+Child C:?@=[C]:?                                called   1560 times. Took 0.01s
+
+------------------------- C:<function: 109E3E58>@=[C]:? ------------------------
+Call count:          841
+Time spend total:       0.012s
+Time spent in children: 0.001s
+Time spent in self:     0.011s
+Time spent per call:  0.00001s/call
+Time spent in self per call: 0.00001s/call
+
+Child C:<function: 109E3C38>@=[C]:?             called      2 times. Took 0.00s
+Child L:<function: 109E64D8>@=?:190             called      3 times. Took 0.00s
+
+------------------------------- C:rawequal@=[C]:? ------------------------------
+Call count:         3177
+Time spend total:       0.010s
+Time spent in children: 0.000s
+Time spent in self:     0.010s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+---------------------------- C:newImageSheet@=[C]:? ----------------------------
+Call count:            1
+Time spend total:       0.009s
+Time spent in children: 0.000s
+Time spent in self:     0.009s
+Time spent per call:  0.00900s/call
+Time spent in self per call: 0.00900s/call
+
+---------------------------------- C:?@=[C]:? ----------------------------------
+Call count:         1560
+Time spend total:       0.009s
+Time spent in children: 0.000s
+Time spent in self:     0.009s
+Time spent per call:  0.00001s/call
+Time spent in self per call: 0.00001s/call
+
+-------------------------------- C:print@=[C]:? --------------------------------
+Call count:          339
+Time spend total:       0.010s
+Time spent in children: 0.002s
+Time spent in self:     0.008s
+Time spent per call:  0.00003s/call
+Time spent in self per call: 0.00002s/call
+
+Child C:<function: 109E1578>@=[C]:?             called    339 times. Took 0.00s
+
+------------------- L:?@@D:\CG_Source\Runtime_Systems_CS263\lua-corona-play\code\StarExplorer\main.lua:224 -------------------
+Call count:          126
+Time spend total:       0.008s
+Time spent in children: 0.004s
+Time spent in self:     0.004s
+Time spent per call:  0.00006s/call
+Time spent in self per call: 0.00003s/call
+
+Child C:remove@=[C]:?                           called      1 times. Took 0.00s
+Child C:<function: 109E3E58>@=[C]:?             called      5 times. Took 0.00s
+Child L:remove@=?:518                           called      2 times. Took 0.00s
+Child L:performWithDelay@=?:13                  called      2 times. Took 0.00s
+Child C:print@=[C]:?                            called    126 times. Took 0.00s
+
+---------------------------------- L:?@=?:179 ----------------------------------
+Call count:         1403
+Time spend total:       0.082s
+Time spent in children: 0.079s
+Time spent in self:     0.003s
+Time spent per call:  0.00006s/call
+Time spent in self per call: 0.00000s/call
+
+Child L:_listener@@D:\CG_Source\Runtime_Systems_CS263\lua-corona-play\code\StarExplorer\main.lua:206 called      2 times. Took 0.00s
+Child L:_remove@=?:158                          called     45 times. Took 0.00s
+Child C:type@=[C]:?                             called     45 times. Took 0.00s
+Child L:_insert@=?:137                          called     43 times. Took 0.01s
+Child L:_listener@@D:\CG_Source\Runtime_Systems_CS263\lua-corona-play\code\StarExplorer\main.lua:180 called     43 times. Took 0.07s
+
+------------------------- C:<function: 109E1618>@=[C]:? ------------------------
+Call count:         1176
+Time spend total:       0.003s
+Time spent in children: 0.000s
+Time spent in self:     0.003s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+------------------- L:createAsteroid@@D:\CG_Source\Runtime_Systems_CS263\lua-corona-play\code\StarExplorer\main.lua:94 -------------------
+Call count:           43
+Time spend total:       0.007s
+Time spent in children: 0.004s
+Time spent in self:     0.003s
+Time spent per call:  0.00016s/call
+Time spent in self per call: 0.00007s/call
+
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:print@=[C]:?                            called     43 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:random@=[C]:?                           called    215 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child L:<function: 0DE86C40>@=?:145             called     24 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:<function: 109E3C38>@=[C]:?             called     86 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:<function: 109E3E58>@=[C]:?             called    129 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:addBody@=[C]:?                          called     43 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:newImageRect@=[C]:?                     called     43 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:insert@=[C]:?                           called     43 times. Took 0.00s
+Child C:setLinearVelocity@=[C]:?                called      1 times. Took 0.00s
+Child C:applyTorque@=[C]:?                      called      1 times. Took 0.00s
+
+----------------------------------- L:?@=?:19 ----------------------------------
+Call count:           94
+Time spend total:       0.002s
+Time spent in children: 0.000s
+Time spent in self:     0.002s
+Time spent per call:  0.00002s/call
+Time spent in self per call: 0.00002s/call
+
+Child C:<function: 109E3C38>@=[C]:?             called      1 times. Took 0.00s
+Child C:<function: 109E3E58>@=[C]:?             called      1 times. Took 0.00s
+
+------------------------- C:<function: 109E1578>@=[C]:? ------------------------
+Call count:          339
+Time spend total:       0.002s
+Time spent in children: 0.000s
+Time spent in self:     0.002s
+Time spent per call:  0.00001s/call
+Time spent in self per call: 0.00001s/call
+
+------------------------------- L:_remove@=?:158 -------------------------------
+Call count:           45
+Time spend total:       0.002s
+Time spent in children: 0.001s
+Time spent in self:     0.001s
+Time spent per call:  0.00004s/call
+Time spent in self per call: 0.00002s/call
+
+Child C:<function: 109E15D8>@=[C]:?             called     51 times. Took 0.00s
+Child C:remove@=[C]:?                           called     45 times. Took 0.00s
+Child C:ipairs@=[C]:?                           called     45 times. Took 0.00s
+Child L:_updateNextTime@=?:123                  called     45 times. Took 0.00s
+
+------------------------- L:removeEventListener@=?:128 -------------------------
+Call count:           43
+Time spend total:       0.002s
+Time spent in children: 0.001s
+Time spent in self:     0.001s
+Time spent per call:  0.00005s/call
+Time spent in self per call: 0.00002s/call
+
+Child C:remove@=[C]:?                           called     43 times. Took 0.00s
+Child C:rawequal@=[C]:?                         called     57 times. Took 0.00s
+Child C:type@=[C]:?                             called     43 times. Took 0.00s
+Child L:didRemoveListener@=?:337                called     43 times. Took 0.00s
+
+--------------------------------- L:to@=?:180 ----------------------------------
+Call count:            4
+Time spend total:       0.001s
+Time spent in children: 0.000s
+Time spent in self:     0.001s
+Time spent per call:  0.00025s/call
+Time spent in self per call: 0.00025s/call
+
+Child L:verifyListener@=?:362                   called     24 times. Took 0.00s
+Child C:type@=[C]:?                             called      4 times. Took 0.00s
+Child C:getTimer@=[C]:?                         called      4 times. Took 0.00s
+Child L:_initTween@=?:98                        called      4 times. Took 0.00s
+Child L:_addTween@=?:130                        called      4 times. Took 0.00s
+
+------------------------------- C:newText@=[C]:? -------------------------------
+Call count:            2
+Time spend total:       0.001s
+Time spent in children: 0.000s
+Time spent in self:     0.001s
+Time spent per call:  0.00050s/call
+Time spent in self per call: 0.00050s/call
+
+----------------------------- L:_transition@=?:49 ------------------------------
+Call count:          576
+Time spend total:       0.001s
+Time spent in children: 0.000s
+Time spent in self:     0.001s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- L:didRemoveListener@=?:337 --------------------------
+Call count:           43
+Time spend total:       0.001s
+Time spent in children: 0.000s
+Time spent in self:     0.001s
+Time spent per call:  0.00002s/call
+Time spent in self per call: 0.00002s/call
+
+Child L:respondsToEvent@=?:231                  called     43 times. Took 0.00s
+
+--------------------------- L:_updateNextTime@=?:123 ---------------------------
+Call count:           91
+Time spend total:       0.004s
+Time spent in children: 0.003s
+Time spent in self:     0.001s
+Time spent per call:  0.00004s/call
+Time spent in self per call: 0.00001s/call
+
+Child L:addEventListener@=?:315                 called     40 times. Took 0.00s
+Child L:removeEventListener@=?:283              called     39 times. Took 0.00s
+
+---------------------------------- C:?@=[C]:? ----------------------------------
+Call count:          311
+Time spend total:       0.001s
+Time spent in children: 0.000s
+Time spent in self:     0.001s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+------------------------------- L:remove@=?:518 --------------------------------
+Call count:           20
+Time spend total:       0.001s
+Time spent in children: 0.000s
+Time spent in self:     0.001s
+Time spent per call:  0.00005s/call
+Time spent in self per call: 0.00005s/call
+
+Child C:<function: 109E3C38>@=[C]:?             called     19 times. Took 0.00s
+Child C:type@=[C]:?                             called     20 times. Took 0.00s
+Child C:removeSelf@=[C]:?                       called     19 times. Took 0.00s
+
+------------------------------- C:addBody@=[C]:? -------------------------------
+Call count:           46
+Time spend total:       0.001s
+Time spent in children: 0.000s
+Time spent in self:     0.001s
+Time spent per call:  0.00002s/call
+Time spent in self per call: 0.00002s/call
+
+--------------------------- L:addEventListener@=?:268 --------------------------
+Call count:           47
+Time spend total:       0.003s
+Time spent in children: 0.002s
+Time spent in self:     0.001s
+Time spent per call:  0.00006s/call
+Time spent in self per call: 0.00002s/call
+
+Child L:addEventListener@=?:110                 called     47 times. Took 0.00s
+Child C:beginListener@=[C]:?                    called      1 times. Took 0.00s
+
+------------------------------- L:_insert@=?:137 -------------------------------
+Call count:           46
+Time spend total:       0.005s
+Time spent in children: 0.004s
+Time spent in self:     0.001s
+Time spent per call:  0.00011s/call
+Time spent in self per call: 0.00002s/call
+
+Child L:_updateNextTime@=?:123                  called     46 times. Took 0.00s
+Child C:ipairs@=[C]:?                           called     46 times. Took 0.00s
+Child C:insert@=[C]:?                           called     46 times. Took 0.00s
+Child C:<function: 109E15D8>@=[C]:?             called     48 times. Took 0.00s
+
+------------------- L:?@@D:\CG_Source\Runtime_Systems_CS263\lua-corona-play\code\StarExplorer\main.lua:155 -------------------
+Call count:          122
+Time spend total:       0.005s
+Time spent in children: 0.004s
+Time spent in self:     0.001s
+Time spent per call:  0.00004s/call
+Time spent in self per call: 0.00001s/call
+
+Child L:<function: 0DE86C40>@=?:145             called      8 times. Took 0.00s
+Child C:print@=[C]:?                            called    122 times. Took 0.00s
+Child C:<function: 109E3E58>@=[C]:?             called    115 times. Took 0.00s
+Child C:<function: 109E3C38>@=[C]:?             called     12 times. Took 0.00s
+Child C:setFocus@=[C]:?                         called      8 times. Took 0.00s
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+------------------- L:callListener@@D:\CG_Source\Runtime_Systems_CS263\lua-corona-play\code\StarExplorer\main.lua:215 -------------------
+Call count:            2
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+Child C:<function: 109E3E58>@=[C]:?             called      1 times. Took 0.00s
+Child C:type@=[C]:?                             called      1 times. Took 0.00s
+Child L:callListener@@D:\CG_Source\Runtime_Systems_CS263\lua-corona-play\code\StarExplorer\main.lua:215 called      1 times. Took 0.00s
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+------------------- L:?@@D:\CG_Source\Runtime_Systems_CS263\lua-corona-play\code\StarExplorer\main.lua:134 -------------------
+Call count:            2
+Time spend total:       0.001s
+Time spent in children: 0.001s
+Time spent in self:     0.000s
+Time spent per call:  0.00050s/call
+Time spent in self per call: 0.00000s/call
+
+Child C:addBody@=[C]:?                          called      2 times. Took 0.00s
+Child L:to@=?:180                               called      2 times. Took 0.00s
+Child C:toBack@=[C]:?                           called      2 times. Took 0.00s
+Child C:<function: 109E3C38>@=[C]:?             called      6 times. Took 0.00s
+Child C:newImageRect@=[C]:?                     called      2 times. Took 0.00s
+Child C:<function: 109E3E58>@=[C]:?             called      8 times. Took 0.00s
+Child C:print@=[C]:?                            called      2 times. Took 0.00s
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+------------------------- L:removeEventListener@=?:283 -------------------------
+Call count:           86
+Time spend total:       0.004s
+Time spent in children: 0.004s
+Time spent in self:     0.000s
+Time spent per call:  0.00005s/call
+Time spent in self per call: 0.00000s/call
+
+Child L:removeEventListener@=?:128              called     43 times. Took 0.00s
+Child L:removeEventListener@=?:283              called     43 times. Took 0.00s
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+------------------------- C:<function: 109E34D8>@=[C]:? ------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+---------------------------------- C:?@=[C]:? ----------------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+------------------- L:callListener@@D:\CG_Source\Runtime_Systems_CS263\lua-corona-play\code\StarExplorer\main.lua:215 -------------------
+Call count:            2
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+Child C:<function: 109E3E58>@=[C]:?             called      1 times. Took 0.00s
+Child C:type@=[C]:?                             called      1 times. Took 0.00s
+Child L:callListener@@D:\CG_Source\Runtime_Systems_CS263\lua-corona-play\code\StarExplorer\main.lua:215 called      1 times. Took 0.00s
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+--------------------------------- C:len@=[C]:? ---------------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+------------------- L:_listener@@D:\CG_Source\Runtime_Systems_CS263\lua-corona-play\code\StarExplorer\main.lua:206 -------------------
+Call count:            2
+Time spend total:       0.001s
+Time spent in children: 0.001s
+Time spent in self:     0.000s
+Time spent per call:  0.00050s/call
+Time spent in self per call: 0.00000s/call
+
+Child C:<function: 109E3E58>@=[C]:?             called      6 times. Took 0.00s
+Child C:print@=[C]:?                            called      2 times. Took 0.00s
+Child L:<function: 0DE86C40>@=?:145             called      4 times. Took 0.00s
+Child L:to@=?:180                               called      2 times. Took 0.00s
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+--------------------------------- C:sub@=[C]:? ---------------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+--------------------------- L:addEventListener@=?:110 --------------------------
+Call count:           47
+Time spend total:       0.002s
+Time spent in children: 0.002s
+Time spent in self:     0.000s
+Time spent per call:  0.00004s/call
+Time spent in self per call: 0.00000s/call
+
+Child C:<function: 109E3C38>@=[C]:?             called      2 times. Took 0.00s
+Child L:getOrCreateTable@=?:75                  called     47 times. Took 0.00s
+Child C:insert@=[C]:?                           called     47 times. Took 0.00s
+Child C:type@=[C]:?                             called     47 times. Took 0.00s
+
+--------------------------- L:addEventListener@=?:315 --------------------------
+Call count:           45
+Time spend total:       0.003s
+Time spent in children: 0.003s
+Time spent in self:     0.000s
+Time spent per call:  0.00007s/call
+Time spent in self per call: 0.00000s/call
+
+Child L:respondsToEvent@=?:231                  called     45 times. Took 0.00s
+Child L:addEventListener@=?:268                 called     45 times. Took 0.00s
+
+------------------------------- C:newGroup@=[C]:? ------------------------------
+Call count:            3
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+---------------------------- C:beginListener@=[C]:? ----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+--------------------------- L:getOrCreateTable@=?:75 ---------------------------
+Call count:           47
+Time spend total:       0.002s
+Time spent in children: 0.002s
+Time spent in self:     0.000s
+Time spent per call:  0.00004s/call
+Time spent in self per call: 0.00000s/call
+
+Child L:?@=?:19                                 called     94 times. Took 0.00s
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+------------------------------ L:_addTween@=?:130 ------------------------------
+Call count:            4
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+Child L:addEventListener@=?:315                 called      4 times. Took 0.00s
+Child C:insert@=[C]:?                           called      4 times. Took 0.00s
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:removeSelf@=[C]:? ------------------------------
+Call count:           19
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+--------------------------- L:respondsToEvent@=?:231 ---------------------------
+Call count:           90
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+Child C:<function: 109E3C38>@=[C]:?             called      3 times. Took 0.00s
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:setGravity@=[C]:? ------------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:randomseed@=[C]:? ------------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+------------------------------- L:require@=?:820 -------------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+Child C:require@=[C]:?                          called      1 times. Took 0.00s
+Child C:find@=[C]:?                             called      1 times. Took 0.00s
+Child C:len@=[C]:?                              called      1 times. Took 0.00s
+Child C:match@=[C]:?                            called      1 times. Took 0.00s
+Child C:sub@=[C]:?                              called      1 times. Took 0.00s
+Child L:getInfo@=?:1152                         called      1 times. Took 0.00s
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+------------------------------- C:getInfo@=[C]:? -------------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------------- C:start@=[C]:? --------------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+--------------------------- L:addEventListener@=?:410 --------------------------
+Call count:            2
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+Child L:addEventListener@=?:268                 called      2 times. Took 0.00s
+Child L:respondsToEvent@=?:231                  called      2 times. Took 0.00s
+Child C:<function: 109E3C38>@=[C]:?             called      4 times. Took 0.00s
+Child C:_setHasListener@=[C]:?                  called      2 times. Took 0.00s
+
+-------------------------------- C:pairs@=[C]:? --------------------------------
+Call count:          584
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+------------------------------- C:toBack@=[C]:? --------------------------------
+Call count:            2
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+------------------------------- C:random@=[C]:? --------------------------------
+Call count:          215
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+------------------------------- C:require@=[C]:? -------------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+Child C:<function: 109E1898>@=[C]:?             called      1 times. Took 0.00s
+Child C:<function: 109E34D8>@=[C]:?             called      1 times. Took 0.00s
+
+--------------------------- L:verifyListener@=?:362 ----------------------------
+Call count:           24
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+Child C:type@=[C]:?                             called     24 times. Took 0.00s
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+------------------------------- C:assert@=[C]:? --------------------------------
+Call count:            4
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+--------------------------- C:_setHasListener@=[C]:? ---------------------------
+Call count:            2
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------------- L:?@=?:68 ----------------------------------
+Call count:            8
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+Child C:type@=[C]:?                             called      8 times. Took 0.00s
+Child C:assert@=[C]:?                           called      4 times. Took 0.00s
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+------------------- L:callListener@@D:\CG_Source\Runtime_Systems_CS263\lua-corona-play\code\StarExplorer\main.lua:147 -------------------
+Call count:            2
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+Child L:callListener@@D:\CG_Source\Runtime_Systems_CS263\lua-corona-play\code\StarExplorer\main.lua:147 called      1 times. Took 0.00s
+Child L:remove@=?:518                           called      1 times. Took 0.00s
+Child C:type@=[C]:?                             called      1 times. Took 0.00s
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+------------------------------- C:insert@=[C]:? --------------------------------
+Call count:          144
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+------------------------------- C:remove@=[C]:? --------------------------------
+Call count:          108
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+---------------------------------- L:?@=?:154 ----------------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+------------------------- C:<function: 109E1898>@=[C]:? ------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+------------------------------ L:_initTween@=?:98 ------------------------------
+Call count:            4
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+Child C:pairs@=[C]:?                            called      4 times. Took 0.00s
+Child L:?@=?:68                                 called      8 times. Took 0.00s
+Child C:<function: 109E3C38>@=[C]:?             called      4 times. Took 0.00s
+Child C:<function: 109E1618>@=[C]:?             called     16 times. Took 0.00s
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------- C:setLinearVelocity@=[C]:? --------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+------------------------------- L:getInfo@=?:1152 ------------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+Child C:type@=[C]:?                             called      1 times. Took 0.00s
+Child C:getInfo@=[C]:?                          called      1 times. Took 0.00s
+
+--------------------------- L:performWithDelay@=?:13 ---------------------------
+Call count:            3
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+Child C:getTimer@=[C]:?                         called      3 times. Took 0.00s
+Child C:type@=[C]:?                             called      4 times. Took 0.00s
+Child L:_insert@=?:137                          called      3 times. Took 0.00s
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+------------------- L:callListener@@D:\CG_Source\Runtime_Systems_CS263\lua-corona-play\code\StarExplorer\main.lua:147 -------------------
+Call count:            2
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+Child L:remove@=?:518                           called      1 times. Took 0.00s
+Child C:type@=[C]:?                             called      1 times. Took 0.00s
+Child L:callListener@@D:\CG_Source\Runtime_Systems_CS263\lua-corona-play\code\StarExplorer\main.lua:147 called      1 times. Took 0.00s
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+--------------------------------- C:find@=[C]:? --------------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+----------------------------- C:applyTorque@=[C]:? -----------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+------------------------------- C:setFocus@=[C]:? ------------------------------
+Call count:            8
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+-------------------------------- C:match@=[C]:? --------------------------------
+Call count:            1
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+------------------------------- C:getTimer@=[C]:? ------------------------------
+Call count:            7
+Time spend total:       0.000s
+Time spent in children: 0.000s
+Time spent in self:     0.000s
+Time spent per call:  0.00000s/call
+Time spent in self per call: 0.00000s/call
+
+
+
+Total time spent in profiled functions: 0.493s
+
+END
